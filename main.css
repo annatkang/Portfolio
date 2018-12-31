@@ -1,4 +1,6 @@
-.hello {
+#hello {
   font-family: 'Merriweather', serif;
+  font-size: 250px;
   font-weight: 700;
+  text-align: center;
 }
