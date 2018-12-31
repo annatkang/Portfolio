@@ -3,5 +3,9 @@ h1 {
   font-size: 250px;
   font-weight: 700;
   text-align: center;
-  color: blue;
+  color: #FFFFFF;
+}
+
+body {
+  background-color: #2d2d37;
 }
