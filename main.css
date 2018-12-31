@@ -1,11 +1,17 @@
 #hello {
-  font-family: 'Merriweather', serif;
-  font-size: 250px;
-  font-weight: 700;
+  font-family:"Big-Caslon", "Georgia", serif;
+  font-size: 200px;
+  font-weight: 100;
   text-align: center;
   color: #FFFFFF;
 }
 
 body {
+  background-image: url("Assets/illustration-squigglesintro-atom.png");
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow-y: hidden ! important;
+  overflow-x: hidden ! important;
   background-color: #2d2d37;
 }
