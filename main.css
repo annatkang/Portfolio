@@ -1,6 +1,40 @@
+/*1. Convert PNG to Webp, and provide PNG as backup
+2. Provide font alternative as it is loading to reduce page load time
+3. Add media queries for tablet and mobile*/
 
 /*FONTS*/
+@font-face {
+  font-family: 'Open Sans';
+  src: url(Fonts/OpenSans-Regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Neuton';
+  src: url(Fonts/Neuton-Bold.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
 p {
+  font-family: 'Open Sans', serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 32px;
+  letter-spacing: 0.25px;
+}
+
+h2 {
+  font-family: 'Neuton', serif;
+  font-weight: 100;
+  font-size: 42px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+/*p {
   font-size: 18px;
   font-family: 'Open Sans', san-serif;
   color: #FFFFFF;
@@ -14,11 +48,11 @@ font-family: 'Neuton', serif;
 font-weight: 900;
 color: #FFFFFF;
 letter-spacing: 1px;
-}
+}*/
 
 /*BACKGROUND*/
 body {
-  background-image: url("Assets/illustration-squigglesintro-atom.png"), url("Assets/illustration-squigglesbottom-atom@2x.png");
+  background-image: url("Assets/PNG/illustration-squigglesintro-atom_compressed.png"), url("Assets/PNG/illustration-squigglesbottom-atom_compressed.png");
   background-size: 100%;
   background-position: top center, bottom center;
   background-repeat: no-repeat;
