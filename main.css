@@ -5,14 +5,14 @@
 /*FONTS*/
 @font-face {
   font-family: 'Open Sans';
-  src: url(Fonts/OpenSans-Regular.ttf);
+  src: url(Fonts/OpenSans-Regular.ttf) format('truetype');
   font-style: normal;
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'Neuton';
-  src: url(Fonts/Neuton-Bold.ttf);
+  src: url(Fonts/Neuton-Bold.ttf) format('truetype');
   font-style: normal;
   font-weight: 100;
 }
