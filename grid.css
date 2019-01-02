@@ -13,14 +13,12 @@
 /*Main*/
 .section {
   grid-column: 1/13;
-  background-color: purple;
 }
 
 /*Nav*/
 .section-1 {
   grid-column: 1/13;
   grid-row: 1/25;
-  background-color: blue;
 }
 
 /*Filters*/
@@ -28,7 +26,6 @@
   grid-column: 2/12;
   text-align: center;
   grid-row: 25/30;
-  background-color: yellow;
 }
 
 /*Projects*/
