@@ -4,10 +4,11 @@
 
 /*FONTS*/
 
-/*@font-face {
+@font-face {
   src: url('Fonts/OpenSans-Regular.woff') format('woff');
   font-style: normal;
   font-weight: 100;
+  font-display: swap;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
   font-style: normal;
   font-weight: 100;
   letter-spacing: 1px;
+  font-display: swap;
 }
 
 p {
@@ -31,9 +33,9 @@ h2 {
   font-size: 42px;
   color: #FFFFFF;
   letter-spacing: 1px;
-}*/
+}
 
-p {
+/*p {
   font-size: 18px;
   font-family: 'Open Sans', san-serif;
   color: #FFFFFF;
@@ -47,12 +49,11 @@ font-family: 'Neuton', serif;
 font-weight: 900;
 color: #FFFFFF;
 letter-spacing: 1px;
-}
+}*/
 
 /*BACKGROUND*/
 body {
   background-image: url("Assets/PNG/illustration-squigglesintro-atom_compressed.png"), url("Assets/PNG/illustration-squigglesbottom-atom_compressed.png");
-  background-image: url("Assets/WebP/illustration-squigglesintro-atom.webp"), url("Assets/WebP/illustration-squigglesbottom-atom.webp");
   background-size: 100%;
   background-position: top center, bottom center;
   background-repeat: no-repeat;
