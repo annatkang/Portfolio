@@ -1,10 +1,15 @@
-/*1. Convert PNG to Webp, and provide PNG as backup
-2. Provide font alternative as it is loading to reduce page load time
-3. Add media queries for tablet and mobile*/
+/*
+1. create hover gradient for projects
+2. link projects to empty pages
+3. style prev and next buttons and overlay on image
+4. create hover effect, select state for filter buttons
+5. Add media queries for tablet and mobile
+*/
 
 /*FONTS*/
 
 @font-face {
+  font-family: 'OpenSans'
   src: url('Fonts/OpenSans-Regular.woff') format('woff');
   font-style: normal;
   font-weight: 100;
@@ -21,7 +26,7 @@
 }
 
 p {
-  font-family: 'Open-Sans', serif;
+  font-family: 'OpenSans', serif;
   font-size: 18px;
   color: #FFFFFF;
   line-height: 32px;
@@ -35,6 +40,7 @@ h2 {
   letter-spacing: 1px;
 }
 
+/*EMBEDDING GOOGLE FONTS*/
 /*p {
   font-size: 18px;
   font-family: 'Open Sans', san-serif;
@@ -90,7 +96,7 @@ body {
   font-size: 16px;
   padding: 8px 16px;
   color: white;
-  font-family: 'Open Sans', san-serif;
+  font-family: 'OpenSans', san-serif;
   font-weight: 100;
 }
 
@@ -139,4 +145,24 @@ text-shadow: 2px 2px rgba(0,0,0,0.1);
 
 .project h2 {
   margin-bottom: 5px;
+}
+
+.projects h1,  .filter-options h1 {
+  color: white;
+}
+
+/*CAROUSEL*/
+.gallery-img {
+  width: 300px;
+}
+
+.slideshow {
+  width: 1300px;
+  height: 260px;
+  overflow: hidden;
+}
+
+.gallery-images {
+  width: 2000px;
+  height: 296px;
 }

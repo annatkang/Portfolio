@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="grid.css" type="text/css" />
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css" />
   <link rel="stylesheet" href="https://use.typekit.net/qjr4set.css">
+  <!--EMBED Google Fonts-->
   <!--link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Neuton:700" rel="stylesheet-->
 </head>
@@ -19,13 +20,13 @@
   <div class="wrapper">
    <nav class="section-1">
      <picture>
-     <source srcset="Assets/WebP/logo-atom_compressed.webp">
+     <source type="img/Webp" srcset="Assets/WebP/logo-atom_compressed.webp">
      <img src="Assets/PNG/logo-atom_compressed.png" alt="logo" class="logo">
    </picture>
    <header><h1 id="hello">Hello.</h1></header>
    </nav>
-   <main class="section-0">
      <section class="filter-options section-2">
+             <h1>Projects</h1>
        <button type="button" class="filter-button">All</button>
         <button type="button" class="filter-button">Web App</button>
         <button type="button" class="filter-button">Ecommerce</button>
@@ -58,8 +59,30 @@
         </div>
       </div>
       </section>
-      <section class="gallery section-4">
-      </section>
-    </main>
   </div>
+
+  <!--section class="carousel-container section-4"-->
+    <!--where actual images go-->
+    <section class="slideshow section-4">
+      <div class="gallery-images">
+      <picture>
+        <source type="image/webp" srcset="Assets/WebP/img_atom_1.webp">
+          <image src="Assets/PNG/img_atom_1.png" alt="woods" class="gallery-img">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="Assets/WebP/img_atom_2.webp">
+          <image src="Assets/PNG/img_atom_2.png" alt="woods" class="gallery-img">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="Assets/WebP/img_atom_3.webp">
+          <image src="Assets/PNG/img_atom_3.png" alt="woods" class="gallery-img">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="Assets/WebP/img_atom_4.webp">
+          <image src="Assets/PNG/img_atom_4.png" alt="woods" class="gallery-img">
+      </picture>
+    </div>
+  </section>
+  <button id="prevbutton">Previous</button>
+  <button id="nextbutton">Next</button>
 </body>
