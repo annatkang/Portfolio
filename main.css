@@ -9,7 +9,7 @@
 /*FONTS*/
 
 @font-face {
-  font-family: 'OpenSans'
+  font-family: OpenSans
   src: url('Fonts/OpenSans-Regular.woff') format('woff');
   font-style: normal;
   font-weight: 100;
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: 'Neuton';
+  font-family: Neuton;
   src: url('Fonts/Neuton-Bold.woff') format('woff');
   font-style: normal;
   font-weight: 100;
@@ -26,7 +26,7 @@
 }
 
 p {
-  font-family: 'OpenSans', serif;
+  font-family: OpenSans, sans-serif;
   font-size: 18px;
   color: #FFFFFF;
   line-height: 32px;
@@ -34,7 +34,7 @@ p {
 }
 
 h2 {
-  font-family: 'Neuton', serif;
+  font-family: Neuton, serif;
   font-size: 42px;
   color: #FFFFFF;
   letter-spacing: 1px;
@@ -96,7 +96,7 @@ body {
   font-size: 16px;
   padding: 8px 16px;
   color: white;
-  font-family: 'OpenSans', san-serif;
+  font-family: OpenSans, sans-serif;
   font-weight: 100;
 }
 
