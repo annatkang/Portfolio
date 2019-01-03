@@ -53,7 +53,7 @@ letter-spacing: 1px;
 
 /*BACKGROUND*/
 body {
-  background-image: url("Assets/PNG/illustration-squigglesintro-atom_compressed.png"), url("Assets/PNG/illustration-squigglesbottom-atom_compressed.png");
+  background-image: url("Assets/PNG/illustration-squigglesintro-atom_compressed_fd21e7cbf2c85c1913172748f06b8df1.png"), url("Assets/PNG/illustration-squigglesbottom-atom_compressed_70e7ca395a7606573bc56e33cca8a4ee.png");
   background-size: 100%;
   background-position: top center, bottom center;
   background-repeat: no-repeat;
