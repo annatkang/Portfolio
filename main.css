@@ -10,7 +10,11 @@
 
 @font-face {
   font-family: OpenSans;
-  src: url('Fonts/OpenSans-Regular.woff') format('woff');
+  src:
+    local('OpenSans-Regular'),
+    local('OpenSans'),
+    url('Fonts/OpenSans-Regular.woff') format('woff'),
+    url('Fonts/OpenSans-Regular.ttf') format('ttf');
   font-style: normal;
   font-weight: 100;
   font-display: swap;
@@ -18,7 +22,11 @@
 
 @font-face {
   font-family: Neuton;
-  src: url('Fonts/Neuton-Bold.woff') format('woff');
+  src:
+    local('Neuton'),
+    local('Neuton-Bold'),
+    url('Fonts/Neuton-Bold.woff') format('woff'),
+    url('Fonts/Neuton-Bold.ttf') format('ttf');
   font-style: normal;
   font-weight: 100;
   letter-spacing: 1px;
