@@ -9,7 +9,7 @@
 /*FONTS*/
 
 @font-face {
-  font-family: OpenSans
+  font-family: OpenSans;
   src: url('Fonts/OpenSans-Regular.woff') format('woff');
   font-style: normal;
   font-weight: 100;
